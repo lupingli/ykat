@@ -87,8 +87,8 @@ div.in {
     border: 1px solid #F0F0F0;
     border-radius: 4px;
     line-height: 35px;
-    margin-top: 15px;
-    margin-bottom: 16px;
+    margin-top: 13px;
+    margin-bottom: 14px;
     padding-left: 10px;
     position: relative;
 }
@@ -176,6 +176,7 @@ tr:nth-of-type(12) ul li:not(:last-child) {
 
 
 tr:nth-last-of-type(4) ul {
+	margin-top: 10px;
     width: 630px;
     border: 1px solid #F0F0F0;
     border-radius: 4px;
