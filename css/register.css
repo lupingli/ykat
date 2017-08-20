@@ -1,0 +1,320 @@
+@charset "UTF-8";
+body,
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 14px;
+    font-family: "宋体";
+    background-color: #F0F0F0;
+}
+
+.container {
+    min-width: 1920px;
+    width: 60%;
+    margin: 0px auto;
+}
+
+
+
+
+/*header样式*/
+
+div.header {
+    height: 120px;
+    background-image: url(../images/register/bg.png);
+    background-repeat: no-repeat;
+}
+
+div.header>div {
+    height: 100%;
+    width: 1024px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.header-left {
+    float: left;
+    margin-top: 30px;
+}
+
+.header-right {
+    float: right;
+    margin-top: 90px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: red;
+}
+
+.header-right span {
+    color: gray;
+}
+
+
+
+
+/*body样式*/
+
+.pagebody form {
+    background-color: white;
+    padding-top: 45px;
+    width: 1025px;
+    margin: 0px auto;
+}
+
+.pagebody table {
+    margin: 0px auto;
+    padding-left: 158px;
+}
+
+tbody>tr>td:nth-of-type(1) {
+    padding-right: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+
+div.in {
+    width: 400px;
+    height: 38px;
+    border: 1px solid #F0F0F0;
+    border-radius: 4px;
+    line-height: 35px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    padding-left: 10px;
+    position: relative;
+}
+
+div.in>span {
+    padding-right: 20px;
+}
+
+
+div.in input[type=image] {
+    position: absolute;
+    padding: 8px;
+    right: 0px;
+    top: 5px;
+}
+
+tr:first-child input[type=button] {
+    position: absolute;
+    padding: 11px;
+    padding-top: 10px;
+    border: 1px solid #F0F0F0;
+    background-color: #F0F0F0;
+    border-radius: 4px;
+    right: -101px;
+    top: -1px;
+}
+
+input[type=button]:hover,dt:hover{
+	cursor:pointer;
+}
+
+tbody>tr:first-child div.in {
+    width: 300px;
+}
+
+tbody tr:nth-of-type(10) input[type=button],
+tr:nth-of-type(11) input[type=button] {
+    height: 30px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    background-image: url(../images/register/uploading_btn.png);
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    padding: 7px;
+    color: white;
+}
+
+tr:nth-of-type(10) span:nth-last-of-type(1) {
+    display: block;
+    position: absolute;
+    right: -340px;
+    top: 4px;
+    padding-left: 10px;
+    color: gray;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+tr:nth-of-type(12) ul {
+    width: 110px;
+    padding: 10px 0px;
+    background-image: url(../images/register/drop_down_box.png);
+    background-repeat: no-repeat;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    right: -2px;
+    top: 24px;
+}
+
+tr:nth-of-type(12) ul li {
+    color: white;
+    font-size: 12px;
+}
+
+tr:nth-of-type(12) ul li:not(:last-child) {
+    background-image: url(../images/register/line_spacing.png);
+    background-repeat: no-repeat;
+    background-position: 12px bottom;
+}
+
+
+tr:nth-last-of-type(4) ul {
+    width: 630px;
+    border: 1px solid #F0F0F0;
+    border-radius: 4px;
+    padding: 32px 0px 22px 0px;
+}
+
+.store-photo dl {
+    float: left;
+    margin: 0px;
+}
+
+.store-photo li:nth-of-type(2) {
+    overflow: hidden;
+}
+
+.store-photo li:first-child {
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.store-photo li:nth-of-type(3) {
+    color: gray;
+    padding-left: 32px;
+    padding-top: 16px;
+}
+
+.store-photo dl dt {
+    width: 145px;
+    height: 122px;
+    background-image: url(../images/register/add_photo.png);
+    background-repeat: no-repeat;
+    margin: 0px 32px;
+}
+
+.store-photo dl dd {
+    margin: 8px 0px 16px 0px;
+    text-align: center;
+}
+
+.register-protocol div.in {
+    border: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.register-protocol div.in div {
+    width: 245px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.register-protocol div.in div div:nth-of-type(1) {
+    position: absolute;
+    background-image: url(../images/register/check_box.png);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    top: 12px;
+    left: 18px;
+}
+
+.register-protocol .in div img {
+    position: absolute;
+    left: 0px;
+}
+
+
+.register-protocol .in div:nth-of-type(2) {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.register-protocol a {
+    text-decoration: none;
+    color: green;
+}
+
+
+tr:nth-last-of-type(2) div.in {
+    padding: 0px;
+    border: none;
+}
+
+input[type=submit] {
+    width: 100%;
+    height: 50px;
+    background-image: url(../images/register/register_box.png);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 24px;
+}
+
+tr:last-child {
+    text-align: center;
+}
+
+tr:last-child span {
+    padding: 0px;
+    color: green;
+}
+
+tr:last-child span:first-child {
+    color: black;
+}
+
+tr:last-child .in {
+    border: none;
+}
+
+
+/*上传文件*/
+
+input[type=file] {
+    display: none;
+}
+
+
+/*footer样式*/
+
+div.footer {
+    width: 1025px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+div.footer p {
+    text-align: center;
+}
+
+div.footer div:nth-of-type(1) {
+    border-top: 1px solid #F0F0F0;
+}
+
+div.footer div:nth-of-type(2) {
+    margin: 0px auto;
+    padding: 56px 0px;
+}
+
+div.footer p:first-child span {
+    font-size: 25px;
+    vertical-align: middle;
+}

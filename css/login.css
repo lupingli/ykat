@@ -1,0 +1,165 @@
+@charset "UTF-8";
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: white;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: white;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+body>div {
+    width: 60%;
+    min-width: 1360px;
+    margin: 0 auto;
+}
+
+div#right from div div {
+    float: left;
+}
+
+#header {
+    height: 130px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+#header p {
+    height: 67px;
+    width: 255px;
+    background-image: url(../images/logo_logo.png);
+    background-repeat: no-repeat;
+    margin-top: 35px;
+    margin-left: 150px;
+    /*border-style: solid;*/
+}
+
+#body {
+    height: 500px;
+    background-image: url(../images/dl_bj.png);
+}
+
+#left {
+    float: left;
+    height: 405px;
+    width: 413px;
+    background-image: url(../images/bg_che.png);
+    position: relative;
+    left: 150px;
+    bottom: -90px;
+}
+
+#right {
+    float: right;
+    height: 400px;
+    width: 385px;
+    background-image: url(../images/bg_jx.png);
+    position: relative;
+    right: 190px;
+    bottom: -50px;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.in {
+    width: 310px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+    -moz-border-radius: 25px;
+    border-color: #ffffff;
+    margin: 30px 30px 0px 30px;
+    /*border:2px;*/
+}
+
+.in input {
+    outline: none;
+}
+
+.in input:not(:last-child) {
+    margin-top: 2px;
+}
+
+#phone {
+    margin: 15px;
+    float: left;
+    width: 30px;
+    height: 22px;
+    background-image: url(../images/phone.png);
+}
+
+#lock {
+    margin: 15px;
+    float: left;
+    width: 31px;
+    height: 22px;
+    background-image: url(../images/password.png);
+}
+
+.close {
+    margin: 16px 10px 15px 0px;
+    float: right;
+    width: 14px;
+    height: 14px;
+    background-image: url(../images/close.png);
+}
+
+#link {
+    position: relative;
+    top: 10px;
+    left: -60px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#link:hover,
+#linka:hover {
+    text-decoration: underline;
+    text-decoration-color: width;
+}
+
+#linka {
+    position: relative;
+    top: 10px;
+    left: 104px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+input {
+    /*opacity:0.1;*/
+    height: 46px;
+    width: 210px;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    font-size: 16px;
+}
